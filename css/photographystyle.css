@@ -144,6 +144,8 @@ header nav ul li a:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 1px solid #eeeeee;
+    aspect-ratio: 3 / 2;
+    height: auto;
     width: 100%;
 }
 
@@ -192,7 +194,9 @@ header nav ul li a:hover {
 }
 
 #photo-container img {
+    aspect-ratio: 3 / 2;
     width: 80vw;
+    height: auto;
     border: 1px solid #eeeeee;
 }
 
