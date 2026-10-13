@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Frøyen | About</title>
+    <meta name="description" content="Photography by William Frøyen (@willfroyen). A gallery of stylized black-and-white photography.">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="William">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/photographystyle.css">
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="/photos/logo/williamfroyen-logo-website-small-white.svg" alt="">
+            <h1 class="sr-only">William Frøyen</h1>
+        </a>
+        <nav aria-label="Hoved">
+            <ul id="menu">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="title-section">
+        <h2>About</h2>
+        <div id="thin-line"></div>
+        <a href="https://instagram.com/willfroyen" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://threads.com/willfroyen" target="_blank" rel="noopener noreferrer">Threads</a>
+        <a href="https://bsky.app/profile/willfroyen.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
+    </section>
+    <main id="main-text">
+        <h3>Who I am</h3>
+        <p>My name is William Frøyen. I'm from Norway and was born in 2003. I started doing photography as a hobby in 2020, and liked experimenting with photo manipulation. My main hobby had long been coding. It was never the technical side of coding itself that appealed to me, but the creative flexibility it gave me in coming up with ideas and bringing them to life. I have combined my interest in photography itself with the use of software.</p>
+        <h3>What I try to capture</h3>
+        <p>When I first started experimenting and adopting this style, it was out of fascination for how it looked. After a while, I began to understand what attracted me to it. I have named the software I use Liquid Charcoal, which is descriptive of the style.</p>
+        <p>The software creates flowing graphic lines that follow and undulate around the structures of the subject. This brings subtle shapes and textures into focus. I aim to offer a different perspective by removing color, simplifying shapes, and accentuating textures. This draws attention to details in nature and architecture that otherwise might go unnoticed.</p>
+        <h3>How the software was made</h3>
+        <p>Liquid Charcoal is an image processing pipeline that maps lines and structures in an image, and draws graphic lines along them. It has a graphical user interface with over 70 adjustable parameters. The pipeline was made with Python using the OpenCV library. The software was written by AI with my directions. It was a long iterative process, where I provided visual and descriptive feedback to achieve the result I wanted. It helped that I have some coding experience, and could read the code and comment on it. The pipeline does not use AI in the processing of the images.</p>
+        <h3>What I've learned</h3>
+        <h4>Editing beyond Liquid Charcoal</h4>
+        <p>Editing the RAW files in software like Darktable before using Liquid Charcoal is often required in order to get a good result. For example, it could involve darkening bright areas in order to preserve detail during processing. The goal is to minimize the need for editing after processing, as further adjustments can sometimes reduce image quality. Minor adjustments to contrast, highlights, and shadows are often still necessary.</p>
+        <h4>Using shadows and depth of field to isolate the subject</h4>
+        <p>As the software enhances textures, too much detail in the background can create visual clutter and distract from the subject. Using shadows and a shallow depth of field helps isolate the subject. This makes its shapes and textures the main focus of the image.</p>
+        <h4>Preserving detail where it matters</h4>
+        <p>The software enhances detail where it is present. It also simplifies areas where there is little. This makes exposure quite important. Both strong highlights and deep shadows can hide small details. This can be undesirable, but can also be used intentionally to direct attention toward specific parts of the subject.</p>
+        <h4>The use of light</h4>
+        <p>The software makes bright areas brighter and dark areas darker, while accentuating lines and edges. Lighting is therefore very important. Small shadows reveal the contours and textures of a subject. The software gives shapes and surfaces a more pronounced and sculptural appearance by amplifying these small variations in light.</p>
+        <h4>Choosing the right subject</h4>
+        <p>The software works best with subjects that can be clearly separated from their backgrounds. The most suitable subjects combine small details and subtle shadows with larger shapes that provide structure and visual order. I find that flowers and buildings often have these qualities.</p>
+    </main>
+    <footer>
+        <div id="footer-social-row">
+            <a href="https://instagram.com/willfroyen" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://threads.com/willfroyen" target="_blank" rel="noopener noreferrer">Threads</a>
+            <a href="https://bsky.app/profile/willfroyen.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
+        </div>
+        <div id="footer-copyright">
+            <p>Copyright 2026 © William Frøyen</p>
+        </div>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>

@@ -97,6 +97,29 @@ header nav ul li a:hover {
     padding: 0px 5vw;
 }
 
+#main-text {
+    padding: 50px 5vw;
+}
+
+#main-text h3 {
+    font-size: 28px;
+    color: #f1f1f1;
+    padding: 10px 0px;
+}
+
+#main-text h4 {
+    font-size: 24px;
+    color: #f1f1f1;
+    padding: 10px 0px;
+}
+
+#main-text p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f1f1f1;
+    padding-bottom: 20px;
+}
+
 #category-section h3 {
     font-size: 24px;
     color: #eeeeee;
@@ -286,6 +309,23 @@ footer #footer-copyright {
 
     #thin-line {
         width: 80%;
+    }
+
+    #main-text {
+        padding: 0px 5vw 40px 5vw;
+    }
+
+    #main-text h3 {
+        font-size: 28px;
+        color: #f1f1f1;
+        padding: 10px 0px;
+    }
+
+    #main-text p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #f1f1f1;
+        padding-bottom: 20px;
     }
 
     #category-section {
